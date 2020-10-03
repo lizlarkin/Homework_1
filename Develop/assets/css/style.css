@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
 }
 
 /* Body Container */
@@ -16,7 +17,6 @@ header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
 /* Position and size of logo */
@@ -49,9 +49,8 @@ nav ul li {
     margin-left: 25px;
 }
 
-/* Style links color and remove default underline */
+/* Remove default underline */
 a {
-    color: #ffffff;
     text-decoration: none;
 }
 
@@ -97,7 +96,6 @@ section {
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
-    color: #ffffff;
 }
 
 /* Marketing Skills pictures sizing */
@@ -125,7 +123,6 @@ aside {
 
 .benefit {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
 /* Benefits pictures elements */
@@ -146,9 +143,15 @@ footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    
 }
 
 /* Set font size in footer h2 different from common h2 */
 footer h2 {
     font-size: 20px;
+    color: black;
+}
+
+footer p {
+    color: black;
 }
