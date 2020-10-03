@@ -18,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Position and size of logo */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+/* Change color inline within logo */
+header h1 #seo {
     color: #d9dcd6;
 }
 
+/* Position and size of items in header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,22 +38,24 @@ header nav {
     font-size: 20px;
 }
 
+/* Remove default styling in header */
 header nav ul {
     list-style-type: none;
 }
 
+/* Create space between header items */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Style links */
+/* Style links color and remove default underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Style Paragraphs */
+/* Style font size in paragraphs */
 p {
     font-size: 16px;
 }
@@ -65,20 +70,23 @@ main {
     background-position: center;
 }
 
+/* Section Container */
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Make pictures/text alternate in each new sub div of section */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Make pictures/text alternate in each new sub div of section */
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-section {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /* Left Content Section of Secondary Container */
@@ -94,6 +102,7 @@ section {
     color: #ffffff;
 }
 
+/* SEO picture sizing */
 #search-engine-optimization img {
     max-height: 200px;
 }
@@ -114,6 +123,7 @@ section {
     color: #ffffff;
 }
 
+/* reputation management picture sizing */
 #online-reputation-management img {
     max-height: 200px;
 }
@@ -134,6 +144,7 @@ section {
     color: #ffffff;
 }
 
+/* social media marketing picture sizing */
 #social-media-marketing img {
     max-height: 200px;
 }
