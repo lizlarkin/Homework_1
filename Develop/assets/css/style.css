@@ -19,13 +19,13 @@ header {
 }
 
 /* Position and size of logo */
-header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* Change color inline within logo */
-header h1 #seo {
+h1 #seo {
     color: #d9dcd6;
 }
 
