@@ -107,7 +107,7 @@ section {
     max-height: 200px;
 }
 
-#search-engine-optimization h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -128,11 +128,6 @@ section {
     max-height: 200px;
 }
 
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 /* Social Media Marketing */
 
 #social-media-marketing {
@@ -147,11 +142,6 @@ section {
 /* social media marketing picture sizing */
 #social-media-marketing img {
     max-height: 200px;
-}
-
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* Right Content Section of Secondary Container */
@@ -172,7 +162,7 @@ aside {
     color: #ffffff;
 }
 
-#benefit-lead h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -189,11 +179,6 @@ aside {
     color: #ffffff;
 }
 
-#benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 #benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -204,11 +189,6 @@ aside {
 #benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
-
-#benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
 }
 
 #benefit-cost img {
